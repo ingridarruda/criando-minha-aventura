@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="imagem-passo0.jpg" alt="">
+            <p>Você é um jovem aventureiro que encontra um relógio antigo em uma loja de antiguidades. Ele parece ter algo especial, como se guardasse um segredo. Assim que você o toca, o ponteiro dos segundos começa a girar rapidamente, e você sente uma onda de energia ao redor. De repente, uma voz ecoa: "Escolha com sabedoria, pois cada decisão te levará a um novo destino."</p>
+            <button class="btn-proximo" data-proximo="1">seguir a voz.</button>
+            <button class="btn-proximo" data-proximo="2">ignorar a voz.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p> A voz lhe pede para encontrar o antigo Templo do Tempo, onde uma chave mágica o aguarda. Você pode ir pela floresta densa ou pela cidade antiga.A floresta é escura, e estranhos ruídos ecoam entre as árvores. Em um ponto, você encontra um misterioso viajante que oferece ajuda. Ele lhe diz que o Templo está próximo, mas exige algo em troca.</p>
+            <button class="btn-proximo" data-proximo="3"> aceitar ajuda do viajante.
+            </button>
+            <button class="btn-proximo" data-proximo="4">recusar.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você segue pelas ruínas da cidade e encontra pistas gravadas nas pedras. Elas formam um enigma que precisa ser resolvido para encontrar a chave do Templo.</p>
+            <button class="btn-proximo" data-proximo="5">resolver o enigma.</button>
+            <button class="btn-proximo" data-proximo="6">procurar ajuda.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Após o relógio sumir, você encontra um bilhete misterioso que diz: "Volte ao local onde encontrou o relógio." Curioso, você decide voltar.</p>
+            <button class="btn-proximo" data-proximo="7">voltar para o local da loja</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="imagem-passo4.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você segue seu caminho sozinho para explorar a floresta e as casas que encontra pelo caminho.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você ignora o bilhete e vai para casa, mas passa a ser perseguido por estranhos sonhos. A história termina com um mistério não resolvido, mas você o ignora e decide ir explorar a praia que há perto de sua casa.</p>
+            <button class="btn-proximo" data-proximo="7">relaxar nas praias</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída, não satisfeito, você decide tirar uma foto do beco para ver se acha algo parecido na internet.</p>
+            <button class="btn-proximo" data-proximo="8">tirar foto e pesquisar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você volta à loja e descobre que o relógio pertence a um antigo explorador e contém segredos que podem mudar o destino de quem o usa.</p>
+            <button class="btn-proximo" data-proximo="9">devolver o relógio ao dono</button>
+            <button class="btn-proximo" data-proximo="10">voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Guandando a foto, você volta para a praia, pois dentro da caverna não tem sinal, antes que possa pesquisar, você se depara com um movimento estranho no mar.</p>
+            <button class="btn-proximo" data-proximo="7">pedir ajuda</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ele lhe agradece e o deixa entrar em sua casa para comer e beber algo, e mesmo desconfiado você aceita. Ele lhe oferece carona para a volta para casa.</p>
+            <button class="btn-proximo" data-proximo="11">Aceitar</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Vocês passam o caminho todo conversando sobre a vida e chega em casa em segurança.</p>
+            <button class="btn-proximo" data-proximo="12">Comer algo e relaxar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="imagem-passo6.jpg" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Você tem uma bela noite de sono e sonha com tudo que viveu, esperançoso para contar para alguém</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você toma um banho e vê um filme para relaxar, mas no meio do filme você dorme.</p>
+            <button class="btn-proximo" data-proximo="11">viver a vida normalmente</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
